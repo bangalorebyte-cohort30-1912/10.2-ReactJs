@@ -1,4 +1,5 @@
 import React from 'react'
+import Clock from './Clock'
 
 export default function MainBody(props) {
     if(props.isAuthorised===true){
@@ -6,6 +7,7 @@ export default function MainBody(props) {
             <div>
                 <h2>This is main body</h2>
                 <h3>Hi {props.name} and you are authorised</h3>
+                <Clock date={new Date()}/>
             </div>
         )
     }else{

@@ -5,7 +5,7 @@ import MainBody from './components/MainBody'
 import './App.css';
 
 function App() {
-  const name = 'vivek'
+  const name = 'jithin'
   let isAuthorised 
   if(name === 'jithin'){
     isAuthorised = true
